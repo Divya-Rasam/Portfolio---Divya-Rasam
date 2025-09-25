@@ -1,0 +1,382 @@
+html {
+  scroll-padding-top: 100px; /* Adjust this value based on your navbar height */
+}
+
+
+.site-wrapper {
+  max-width: 1140px;  /* You can reduce to 1000px or 960px for even narrower look */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar {
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make Rasam brand bolder and bigger */
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.9rem; /* slightly bigger */
+  letter-spacing: 1px;
+}
+
+/* Make nav links bold and spaced out */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1rem; /* optional: adjust size */
+  letter-spacing: 2px;
+}
+
+
+.tech-badge {
+      display: inline-block;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 999px;
+      background-color: #454343;
+      margin: 2px;
+    }
+
+.project-box {
+      border: 1px solid #dee2e6;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    
+.project-img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+    }
+
+
+  .skill-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1e1e1e;
+  padding: 10px;
+}
+
+
+.nav-item a {
+  color: white;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.flex {
+  display: flex;
+}
+
+.m-b {
+  margin-bottom: 0px;
+} 
+
+
+
+
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.left-column, .right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.icon {
+  font-size: 24px;
+  background-color: #2c2c2c;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+
+.contact-item a {
+  color: #d2cece;
+  text-decoration: none;
+}
+
+.contact-item p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+input.form-control,
+textarea.form-control {
+  background-color: #1e1e1e;
+  border: 1px solid #555;
+  color: white;
+}
+
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+  color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+.light-theme .navbar {
+  background-color: white !important;
+}
+
+.light-theme .nav-item a {
+  color: black !important;
+}
+
+
+
+
+/* Light mode styles */
+body.light-theme {
+  background-color: #ffffff !important;
+  color: #000000;
+}
+
+body.light-theme .navbar {
+  background-color: #f8f9fa !important;
+}
+
+body.light-theme .navbar .nav-link {
+  color: #000 !important;
+}
+
+body.light-theme .project-box {
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+}
+
+body.light-theme .tech-badge {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+body.light-theme .skill-icon {
+  background-color: #e0e0e0;
+}
+
+body.light-theme .contact-item a,
+body.light-theme .contact-item p,
+body.light-theme .icon,
+body.light-theme .right-column label {
+  color: #000;
+}
+
+body.light-theme .icon {
+  background-color: #e0e0e0;
+}
+
+body.light-theme input.form-control,
+body.light-theme textarea.form-control {
+  background-color: #ffffff;
+  border: 1px solid #aaa;
+  color: #000;
+}
+
+body.light-theme input.form-control::placeholder,
+body.light-theme textarea.form-control::placeholder {
+  color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Light Theme Overrides */
+body.light-theme {
+  background-color: #f8f9fa; /* light gray background */
+  color: #212529; /* dark text */
+}
+
+/* Navbar light style */
+body.light-theme .navbar {
+  background-color: #ffffff !important;
+}
+
+body.light-theme .navbar-brand,
+body.light-theme .nav-item a {
+  color: #212529 !important;
+}
+
+/* Section headings and text */
+body.light-theme h1,
+body.light-theme h2,
+body.light-theme h3,
+body.light-theme p,
+body.light-theme li {
+  color: #212529;
+}
+
+
+/* about */
+body.light-theme .col-lg-6 p {
+  color: rgb(68, 67, 67) !important;
+}
+
+body.light-theme .col-lg-6 p a {
+  color: rgb(68, 67, 67) !important;
+}
+
+body.light-theme .row .btn {
+  border: 1px solid #424141;
+}
+
+body.light-theme .btn i {
+  color: black;
+}
+
+
+/* projects */
+
+body.light-theme #projects .BG- {
+  color: rgb(0, 0, 0) !important;
+}
+
+body.light-theme  p.black {
+  color: rgb(0, 0, 0) !important;
+}
+
+
+/* Project cards */
+body.light-theme .project-box {
+  background-color: #ffffff;
+  border-color: #ccc;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+body.light-theme .tech-badge {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+/* Skill icons */
+body.light-theme .skill-icon {
+  background-color: #eaeaea;
+}
+
+body.light-theme .display-5 {
+  color: rgb(0, 0, 0) !important;
+}
+
+body.light-theme #technologia {
+  color: rgb(72, 72, 72) !important;
+}
+
+body.light-theme .fw-bold {
+  color: rgb(0, 0, 0) !important;
+}
+
+body.light-theme .mt-2 {
+  color: rgb(0, 0, 0) !important;
+}
+
+
+
+/* Contact icons */
+body.light-theme .icon {
+  background-color: #e0e0e0;
+  color: #212529;
+}
+
+/* Form styling */
+body.light-theme input.form-control,
+body.light-theme textarea.form-control {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #212529;
+}
+
+body.light-theme input.form-control::placeholder,
+body.light-theme textarea.form-control::placeholder {
+  color: #888;
+}
+
+/* Contact link colors */
+body.light-theme .contact-item a {
+  color: #212529;
+}
+
+body.light-theme .contact-item span {
+  color: #212529;
+}
+
+
+
+
+
+
+
+body.light-theme .bg-dark {
+  background-color: #ffffff !important;
+}
+
+
+
